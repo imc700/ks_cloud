@@ -1,0 +1,28 @@
+server:
+  port: 8001
+  address: 0.0.0.0
+spring:
+  # 应用名称
+  application:
+    name: ks_account
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://116.63.138.138:3306/ks_account?characterEncoding=UTF8&useSSL=false
+    username: root
+    password: ssss2222
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  jackson:
+    serialization:
+      indent-output: true
+# 注册到eureka服务地址
+eureka:
+  instance:
+    prefer-ip-address: true # 访问路径可以显示 IP
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:7456/eureka/
+
+#spring.jackson.serialization.indent-output=true
