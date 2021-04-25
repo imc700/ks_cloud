@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @SpringBootApplication
 @EnableDiscoveryClient
 public class KsAccountApplication {
-
+    //2021年4月25日22:19:24
     public static void main(String[] args) {
         SpringApplication.run(KsAccountApplication.class, args);
     }

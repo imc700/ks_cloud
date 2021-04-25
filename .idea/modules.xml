@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ks_account/ks_account.iml" filepath="$PROJECT_DIR$/ks_account/ks_account.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ks_cloud.iml" filepath="$PROJECT_DIR$/.idea/ks_cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ks_eureka/ks_eureka.iml" filepath="$PROJECT_DIR$/ks_eureka/ks_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ks_zuul/ks_zuul.iml" filepath="$PROJECT_DIR$/ks_zuul/ks_zuul.iml" />
     </modules>
   </component>
 </project>
