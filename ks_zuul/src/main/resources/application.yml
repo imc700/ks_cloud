@@ -10,9 +10,12 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:7456/eureka/
-
 zuul:
   routes:
-    ks:                  #路由名,随便起个名字即可
-      path: /ks_account/**            #(针对微服务名称的)访问路径
-      serviceId: ks_account         #微服务名称 ，对应注册中心的另一个 application name
+    ks_account: /ks_account/**
+
+#zuul:
+#  routes:
+#    ks:                  #路由名,随便起个名字即可
+#      path: /ks_account/**            #(针对微服务名称的)访问路径
+#      serviceId: ks_account         #微服务名称 ，对应注册中心的另一个 application name
