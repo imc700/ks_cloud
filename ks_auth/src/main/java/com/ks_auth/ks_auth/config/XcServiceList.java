@@ -9,7 +9,7 @@ public class XcServiceList {
     public static final String XC_SERVICE_MANAGE_MEDIA = "xc-service-manage-media";
     public static final String XC_SERVICE_MANAGE_CMS = "xc-service-manage-cms";
     public static final String XC_SERVICE_UCENTER = "xc-service-ucenter";
-    public static final String XC_SERVICE_UCENTER_AUTH = "xc-service-ucenter-auth";
+    public static final String XC_SERVICE_UCENTER_AUTH = "ks-auth";
     public static final String KS_ACCOUNT = "KS-ACCOUNT";
     public static final String XC_SERVICE_UCENTER_JWT = "xc-service-ucenter-jwt";
     public static final String XC_SERVICE_BASE_FILESYSTEM = "xc-service-base-filesystem";

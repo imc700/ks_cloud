@@ -4,7 +4,7 @@ server:
     context-path: /auth
 spring:
   application:
-    name: xc-service-ucenter-auth
+    name: ks-auth
   redis:
     host: ${REDIS_HOST:116.63.138.138}
     port: ${REDIS_PORT:6379}
