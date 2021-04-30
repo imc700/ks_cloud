@@ -4,7 +4,7 @@ server:
 spring:
   # 应用名称
   application:
-    name: ks_account
+    name: ks-account
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://116.63.138.138:3306/ks_account?characterEncoding=UTF8&useSSL=false

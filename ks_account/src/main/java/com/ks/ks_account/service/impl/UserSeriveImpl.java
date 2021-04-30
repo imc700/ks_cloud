@@ -14,6 +14,11 @@ public class UserSeriveImpl implements UserService {
     private UserDao userDao;
 
     @Override
+    public User getuserext(String username) {
+        return userDao.findUserByUsername(username);
+    }
+
+    @Override
     public List<User> findAll() {
         return userDao.findAll();
     }
