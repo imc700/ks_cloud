@@ -22,7 +22,7 @@ spring:
     username: root
     password: ssss2222
 auth:
-  tokenValiditySeconds: 1200  #token存储到redis的过期时间
+  tokenValiditySeconds: 7200  #token存储到redis的过期时间
   clientId: XcWebApp
   clientSecret: XcWebApp
 #  cookieDomain: afanxyz.xyz
